@@ -59,7 +59,15 @@
 
 
 - (void)loadWebView {
-    // 注释了没用有警告的代码
+    // 添加block
+    int a = 10;
+    int b = 6;
+    void (^addBlock)(void) = ^{
+        NSLog(@"a+b = %d", a+b);
+    };
+    addBlock();
+    
+    // 继续消除警告
 //    BOOL isiphoneX = KIsiPhoneX;
     _cavWebV = [[WKWebView alloc] init];
     _cavWebV.navigationDelegate = self;
