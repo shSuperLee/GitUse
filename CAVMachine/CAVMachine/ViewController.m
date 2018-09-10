@@ -59,7 +59,8 @@
 
 
 - (void)loadWebView {
-    BOOL isiphoneX = KIsiPhoneX;
+    // 注释了没用有警告的代码
+//    BOOL isiphoneX = KIsiPhoneX;
     _cavWebV = [[WKWebView alloc] init];
     _cavWebV.navigationDelegate = self;
     _cavWebV.UIDelegate = self;
