@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410F55842070D46B0014983E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F55832070D46B0014983E /* AppDelegate.m */; };
+		410F55872070D46B0014983E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F55862070D46B0014983E /* ViewController.m */; };
+		410F558C2070D46B0014983E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410F558B2070D46B0014983E /* Assets.xcassets */; };
+		410F558F2070D46B0014983E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410F558D2070D46B0014983E /* LaunchScreen.storyboard */; };
+		410F55922070D46B0014983E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F55912070D46B0014983E /* main.m */; };
+		410F559C2070D46B0014983E /* CAVMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F559B2070D46B0014983E /* CAVMachineTests.m */; };
+		410F55A72070D46B0014983E /* CAVMachineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F55A62070D46B0014983E /* CAVMachineUITests.m */; };
+		410F55B62071CB630014983E /* LYWebNaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F55B52071CB630014983E /* LYWebNaViewController.m */; };
+		41FB53D620720AC200560467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FB53D520720AC200560467 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		410F55982070D46B0014983E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410F55772070D46B0014983E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410F557E2070D46B0014983E;
+			remoteInfo = CAVMachine;
+		};
+		410F55A32070D46B0014983E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410F55772070D46B0014983E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410F557E2070D46B0014983E;
+			remoteInfo = CAVMachine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		410F557F2070D46B0014983E /* CAVMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAVMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		410F55822070D46B0014983E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		410F55832070D46B0014983E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		410F55852070D46B0014983E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		410F55862070D46B0014983E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		410F558B2070D46B0014983E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410F558E2070D46B0014983E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		410F55902070D46B0014983E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410F55912070D46B0014983E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		410F55972070D46B0014983E /* CAVMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAVMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		410F559B2070D46B0014983E /* CAVMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAVMachineTests.m; sourceTree = "<group>"; };
+		410F559D2070D46B0014983E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410F55A22070D46B0014983E /* CAVMachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAVMachineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		410F55A62070D46B0014983E /* CAVMachineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAVMachineUITests.m; sourceTree = "<group>"; };
+		410F55A82070D46B0014983E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410F55B42071CB630014983E /* LYWebNaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWebNaViewController.h; sourceTree = "<group>"; };
+		410F55B52071CB630014983E /* LYWebNaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWebNaViewController.m; sourceTree = "<group>"; };
+		41FB53D520720AC200560467 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410F557C2070D46B0014983E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410F55942070D46B0014983E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410F559F2070D46B0014983E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410F55762070D46B0014983E = {
+			isa = PBXGroup;
+			children = (
+				410F55812070D46B0014983E /* CAVMachine */,
+				410F559A2070D46B0014983E /* CAVMachineTests */,
+				410F55A52070D46B0014983E /* CAVMachineUITests */,
+				410F55802070D46B0014983E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		410F55802070D46B0014983E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410F557F2070D46B0014983E /* CAVMachine.app */,
+				410F55972070D46B0014983E /* CAVMachineTests.xctest */,
+				410F55A22070D46B0014983E /* CAVMachineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410F55812070D46B0014983E /* CAVMachine */ = {
+			isa = PBXGroup;
+			children = (
+				410F55822070D46B0014983E /* AppDelegate.h */,
+				410F55832070D46B0014983E /* AppDelegate.m */,
+				410F55852070D46B0014983E /* ViewController.h */,
+				410F55862070D46B0014983E /* ViewController.m */,
+				410F558B2070D46B0014983E /* Assets.xcassets */,
+				410F558D2070D46B0014983E /* LaunchScreen.storyboard */,
+				41FB53D520720AC200560467 /* Main.storyboard */,
+				410F55902070D46B0014983E /* Info.plist */,
+				410F55912070D46B0014983E /* main.m */,
+				410F55B42071CB630014983E /* LYWebNaViewController.h */,
+				410F55B52071CB630014983E /* LYWebNaViewController.m */,
+			);
+			path = CAVMachine;
+			sourceTree = "<group>";
+		};
+		410F559A2070D46B0014983E /* CAVMachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				410F559B2070D46B0014983E /* CAVMachineTests.m */,
+				410F559D2070D46B0014983E /* Info.plist */,
+			);
+			path = CAVMachineTests;
+			sourceTree = "<group>";
+		};
+		410F55A52070D46B0014983E /* CAVMachineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				410F55A62070D46B0014983E /* CAVMachineUITests.m */,
+				410F55A82070D46B0014983E /* Info.plist */,
+			);
+			path = CAVMachineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410F557E2070D46B0014983E /* CAVMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410F55AB2070D46B0014983E /* Build configuration list for PBXNativeTarget "CAVMachine" */;
+			buildPhases = (
+				410F557B2070D46B0014983E /* Sources */,
+				410F557C2070D46B0014983E /* Frameworks */,
+				410F557D2070D46B0014983E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAVMachine;
+			productName = CAVMachine;
+			productReference = 410F557F2070D46B0014983E /* CAVMachine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		410F55962070D46B0014983E /* CAVMachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410F55AE2070D46B0014983E /* Build configuration list for PBXNativeTarget "CAVMachineTests" */;
+			buildPhases = (
+				410F55932070D46B0014983E /* Sources */,
+				410F55942070D46B0014983E /* Frameworks */,
+				410F55952070D46B0014983E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410F55992070D46B0014983E /* PBXTargetDependency */,
+			);
+			name = CAVMachineTests;
+			productName = CAVMachineTests;
+			productReference = 410F55972070D46B0014983E /* CAVMachineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		410F55A12070D46B0014983E /* CAVMachineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410F55B12070D46B0014983E /* Build configuration list for PBXNativeTarget "CAVMachineUITests" */;
+			buildPhases = (
+				410F559E2070D46B0014983E /* Sources */,
+				410F559F2070D46B0014983E /* Frameworks */,
+				410F55A02070D46B0014983E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410F55A42070D46B0014983E /* PBXTargetDependency */,
+			);
+			name = CAVMachineUITests;
+			productName = CAVMachineUITests;
+			productReference = 410F55A22070D46B0014983E /* CAVMachineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410F55772070D46B0014983E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ShSuperYang;
+				TargetAttributes = {
+					410F557E2070D46B0014983E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					410F55962070D46B0014983E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 410F557E2070D46B0014983E;
+					};
+					410F55A12070D46B0014983E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 410F557E2070D46B0014983E;
+					};
+				};
+			};
+			buildConfigurationList = 410F557A2070D46B0014983E /* Build configuration list for PBXProject "CAVMachine" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 410F55762070D46B0014983E;
+			productRefGroup = 410F55802070D46B0014983E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410F557E2070D46B0014983E /* CAVMachine */,
+				410F55962070D46B0014983E /* CAVMachineTests */,
+				410F55A12070D46B0014983E /* CAVMachineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		410F557D2070D46B0014983E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FB53D620720AC200560467 /* Main.storyboard in Resources */,
+				410F558F2070D46B0014983E /* LaunchScreen.storyboard in Resources */,
+				410F558C2070D46B0014983E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410F55952070D46B0014983E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410F55A02070D46B0014983E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410F557B2070D46B0014983E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410F55872070D46B0014983E /* ViewController.m in Sources */,
+				410F55922070D46B0014983E /* main.m in Sources */,
+				410F55842070D46B0014983E /* AppDelegate.m in Sources */,
+				410F55B62071CB630014983E /* LYWebNaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410F55932070D46B0014983E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410F559C2070D46B0014983E /* CAVMachineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410F559E2070D46B0014983E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410F55A72070D46B0014983E /* CAVMachineUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		410F55992070D46B0014983E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410F557E2070D46B0014983E /* CAVMachine */;
+			targetProxy = 410F55982070D46B0014983E /* PBXContainerItemProxy */;
+		};
+		410F55A42070D46B0014983E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410F557E2070D46B0014983E /* CAVMachine */;
+			targetProxy = 410F55A32070D46B0014983E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		410F558D2070D46B0014983E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410F558E2070D46B0014983E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		410F55A92070D46B0014983E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TSLENWVEM2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "ddb1f069-d8bb-4292-96a4-4b5d973014d8";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		410F55AA2070D46B0014983E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TSLENWVEM2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ddb1f069-d8bb-4292-96a4-4b5d973014d8";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410F55AC2070D46B0014983E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TSLENWVEM2;
+				INFOPLIST_FILE = CAVMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cavMachine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ddb1f069-d8bb-4292-96a4-4b5d973014d8";
+				PROVISIONING_PROFILE_SPECIFIER = cavMachine_dev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		410F55AD2070D46B0014983E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TSLENWVEM2;
+				INFOPLIST_FILE = CAVMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cavMachine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ddb1f069-d8bb-4292-96a4-4b5d973014d8";
+				PROVISIONING_PROFILE_SPECIFIER = cavMachine_dev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		410F55AF2070D46B0014983E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSLENWVEM2;
+				INFOPLIST_FILE = CAVMachineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yang.CAVMachineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAVMachine.app/CAVMachine";
+			};
+			name = Debug;
+		};
+		410F55B02070D46B0014983E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSLENWVEM2;
+				INFOPLIST_FILE = CAVMachineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yang.CAVMachineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAVMachine.app/CAVMachine";
+			};
+			name = Release;
+		};
+		410F55B22070D46B0014983E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSLENWVEM2;
+				INFOPLIST_FILE = CAVMachineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yang.CAVMachineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CAVMachine;
+			};
+			name = Debug;
+		};
+		410F55B32070D46B0014983E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSLENWVEM2;
+				INFOPLIST_FILE = CAVMachineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yang.CAVMachineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CAVMachine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410F557A2070D46B0014983E /* Build configuration list for PBXProject "CAVMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410F55A92070D46B0014983E /* Debug */,
+				410F55AA2070D46B0014983E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410F55AB2070D46B0014983E /* Build configuration list for PBXNativeTarget "CAVMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410F55AC2070D46B0014983E /* Debug */,
+				410F55AD2070D46B0014983E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410F55AE2070D46B0014983E /* Build configuration list for PBXNativeTarget "CAVMachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410F55AF2070D46B0014983E /* Debug */,
+				410F55B02070D46B0014983E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410F55B12070D46B0014983E /* Build configuration list for PBXNativeTarget "CAVMachineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410F55B22070D46B0014983E /* Debug */,
+				410F55B32070D46B0014983E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 410F55772070D46B0014983E /* Project object */;
+}
